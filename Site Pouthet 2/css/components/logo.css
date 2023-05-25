@@ -1,0 +1,26 @@
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  background-color: #1A4939;
+  color: #F4E9D7;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.logo::before {
+  content: "P";
+  font-size: 60px;
+}
+
+.logo::after {
+  content: "Château de Pouthet";
+  font-size: 14px;
+  text-align: center;
+  margin-top: 5px;
+}

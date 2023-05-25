@@ -1,0 +1,12 @@
+#nextButton {
+  margin-top: 10px;
+  color: #1A4939;
+  background-color:#F4E9D7;
+  font-family: 'Made Tommy', sans-serif;
+  transition:color 0.3s ease;
+  margin-bottom: 50px; 
+}
+
+#nextButton:hover {
+  color: #feaac7; 
+}

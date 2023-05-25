@@ -1,0 +1,21 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.gallery-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0px 2px 60px rgba(0, 0, 0, 0.4)
+
+}
+
